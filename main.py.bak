@@ -1,0 +1,4 @@
+import yoloutil as yu
+path=r"C:\Users\kanis\OneDrive\Desktop\Kanishk Work\yolov8\datasetv8\valid\images\300255_jpg.rf.f51864497300b87aea74b4ba2cdd5ca1.jpg"
+yu.yolov5run(path)
+

@@ -1,0 +1,8 @@
+setup.py
+yoloutil/__init__.py
+yoloutil/yolov5run.py
+yoloutil/yolov8run.py
+yoloutil.egg-info/PKG-INFO
+yoloutil.egg-info/SOURCES.txt
+yoloutil.egg-info/dependency_links.txt
+yoloutil.egg-info/top_level.txt
