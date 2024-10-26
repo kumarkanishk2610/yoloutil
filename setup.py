@@ -1,13 +1,16 @@
-# setup.py
-
 from setuptools import setup, find_packages
 
 setup(
     name='yoloutil',
     version='0.1',
-    packages=find_packages(),
-    description='A utility library for YOLOv5 and YOLOv8',
-    author='Kanishk Kumar',
-    author_email='kanishkkumar2610@gmail.com',
-    url='https://github.com/kumarkanishk2610/yoloutil',  # Update with your repository link
+    description='Utilities for running YOLO models',
+    author='Your Name',
+    author_email='your.email@example.com',
+    url='https://github.com/username/yoloutil',  # Replace with your GitHub URL
+    packages=find_packages(),  # This automatically finds the yoloutil package
+    install_requires=[
+        'matplotlib',
+        'opencv-python',
+        # List any other dependencies
+    ],
 )
